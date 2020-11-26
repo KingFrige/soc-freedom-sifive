@@ -1,6 +1,13 @@
 # soc-freedom-sifive
 e300 and u500 devkits
 
+# requires
+
+```bash
+module load wit/v0.11.1
+module load wake/v0.18.0
+```
+
 # Initializing the workspace
 ```
 wit init workspace -a git@github.com:KingFrige/soc-freedom-sifive.git::flow-study
